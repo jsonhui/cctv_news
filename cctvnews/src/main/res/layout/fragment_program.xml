@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cctvnews.www.fragment.ProgramFragment">
+
+    <ScrollView
+        android:id="@+id/program_scroll_view"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RadioGroup
+            android:id="@+id/program_rg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/program_rb_tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/week_radio_button"
+                android:button="@null"
+                android:gravity="center"
+                android:text="周二" />
+
+            <RadioButton
+                android:id="@+id/program_rb_wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/week_radio_button"
+                android:button="@null"
+                android:gravity="center"
+                android:text="周三" />
+
+            <RadioButton
+                android:id="@+id/program_rb_thursday"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/week_radio_button"
+                android:button="@null"
+                android:gravity="center"
+                android:text="周四" />
+
+            <RadioButton
+                android:id="@+id/program_today"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/week_radio_button"
+                android:button="@null"
+                android:gravity="center"
+                android:text="今天" />
+
+            <RadioButton
+                android:id="@+id/program_rb_satuday"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/week_radio_button"
+                android:button="@null"
+                android:gravity="center"
+                android:text="周六" />
+
+            <RadioButton
+                android:id="@+id/program_rb_sunday"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/week_radio_button"
+                android:button="@null"
+                android:gravity="center"
+                android:text="周日" />
+
+            <RadioButton
+                android:id="@+id/program_rb_monday"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="2dp"
+                android:background="@drawable/week_radio_button"
+                android:button="@null"
+                android:gravity="center"
+                android:text="周一" />
+        </RadioGroup>
+    </ScrollView>
+
+    <View
+        android:id="@+id/program_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/program_scroll_view"
+        android:background="@color/gray" />
+
+    <FrameLayout
+        android:id="@+id/program_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@+id/program_line" />
+
+</RelativeLayout>

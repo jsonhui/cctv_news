@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/joker_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="海峡两岸"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/joker_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/base_header_back" />
+
+    <ImageView
+        android:id="@+id/joker_big_image_iv"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/joker_tv"
+        android:scaleType="centerCrop"
+        android:src="@drawable/likeqiang" />
+    <TextView
+        android:id="@+id/joker_channel_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="周一至周日20:30"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/cctv4"
+        android:layout_below="@+id/joker_big_image_iv"
+        android:layout_centerHorizontal="true"
+        android:drawablePadding="5dp"/>
+    <RadioGroup
+        android:id="@+id/joker_rg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/joker_channel_tv"
+        android:background="@color/black"
+        android:orientation="horizontal"
+        >
+        <RadioButton
+            android:id="@+id/joker_zuixin_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="最新"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/slt_joker_text"
+            android:background="@color/lightgray"
+            android:button="@null"
+            android:layout_marginRight="1px"
+            />
+        <RadioButton
+            android:id="@+id/joker_wangqi_tv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="往期"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/slt_joker_text"
+            android:button="@null"
+            android:background="@color/lightgray"
+            />
+    </RadioGroup>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/joker_rg"
+        />
+</RelativeLayout>

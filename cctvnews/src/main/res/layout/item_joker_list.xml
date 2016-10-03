@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:padding="15dp">
+        <ImageView
+            android:id="@+id/item_joker_iv"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            />
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/item_joker_profile_image"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/vedio"
+            app:civ_border_color="@color/white"
+            app:civ_border_width="2dp"
+            android:layout_alignBottom="@+id/item_joker_iv"
+            android:layout_alignRight="@+id/item_joker_iv"
+            android:layout_alignEnd="@+id/item_joker_iv" />
+        <TextView
+            android:id="@+id/item_joker_tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/item_joker_iv"
+            android:text="《世界周刊》20160717"
+            android:gravity="center_vertical"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:textColor="@color/black"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

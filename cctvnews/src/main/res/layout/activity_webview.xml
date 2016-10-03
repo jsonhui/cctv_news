@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/web_rl"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F4F2EE">
+
+        <ImageView
+            android:id="@+id/web_back_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/base_header_back" />
+
+        <ImageView
+            android:id="@+id/web_menu_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/menu_more" />
+
+        <ImageView
+            android:id="@+id/web_underlying_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/web_menu_iv"
+            android:src="@drawable/icon_underlying_chat" />
+
+        <ImageView
+            android:id="@+id/web_fav_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/web_underlying_iv"
+            android:src="@drawable/icon_fav" />
+
+        <ImageView
+            android:id="@+id/web_share_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@id/web_fav_iv"
+            android:src="@drawable/icon_detail_share" />
+    </RelativeLayout>
+
+    <com.cctvnews.www.customview.ProgressBarWebView
+        android:id="@+id/web_web"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/web_rl" />
+</RelativeLayout>

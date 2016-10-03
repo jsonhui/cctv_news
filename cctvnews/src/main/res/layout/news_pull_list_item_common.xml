@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/news_item_common_iv"
+        android:layout_width="120dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+    <TextView
+        android:id="@+id/news_item_common_tittle_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="【独家V观】南海周边国家及西方一度承认中国在南海的主权"
+        android:layout_toRightOf="@id/news_item_common_iv"
+        android:layout_marginLeft="10dp"
+        android:textSize="13sp"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/news_item_common_bottom_tv"
+        android:layout_width="38dp"
+        android:layout_height="18dp"
+        android:text="听播报"
+        android:textSize="8sp"
+        android:textColor="#3F51B5"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:visibility="visible"
+        android:background="@drawable/news_item_common_text"
+        android:layout_alignBottom="@id/news_item_common_iv"
+        android:layout_alignRight="@+id/news_item_common_tittle_tv"
+        android:layout_alignEnd="@+id/news_item_common_tittle_tv" />
+
+</RelativeLayout>

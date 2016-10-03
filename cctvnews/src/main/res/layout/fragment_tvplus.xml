@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cctvnews.www.fragment.TVPlusFragment">
+
+    <RelativeLayout
+        android:id="@+id/tvplus_rl"
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="电视+"
+            android:textColor="@color/black"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tvplus_listen_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="听电视"
+            android:textColor="@color/blue"
+            android:textSize="12sp" />
+    </RelativeLayout>
+
+    <com.cctvnews.www.customview.MyJCVideoPlayerStandard
+        android:id="@+id/tvplus_jiecao_videoview"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/tvplus_rl" />
+
+    <RelativeLayout
+        android:id="@+id/tvplus_rl_two"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvplus_jiecao_videoview"
+        android:background="@color/white"
+        android:gravity="center">
+
+        <RadioGroup
+            android:id="@+id/tvplus_rg"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:background="@color/gray"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/tvplus_rb_one"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:gravity="center"
+                android:text="节目单"
+                android:textColor="@drawable/slt_text_bottom" />
+
+            <RadioButton
+                android:id="@+id/tvplus_rb_two"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="1dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:gravity="center"
+                android:text="王牌节目"
+                android:textColor="@drawable/slt_text_bottom" />
+
+            <RadioButton
+                android:id="@+id/tvplus_rb_three"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:button="@null"
+                android:gravity="center"
+                android:text="对话主播"
+                android:textColor="@drawable/slt_text_bottom" />
+        </RadioGroup>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tvplus_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvplus_rl_two"
+        android:background="@color/gray" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/tvplus_view_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/tvplus_line" />
+
+</RelativeLayout>

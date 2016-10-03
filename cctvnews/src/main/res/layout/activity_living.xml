@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:id="@+id/living_big_rl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/living_big_iv"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"/>
+        <TextView
+            android:id="@+id/living_tittle_tv"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignBottom="@id/living_big_iv"
+            android:background="#b0000000"
+            android:gravity="center"
+            android:text="正直播，央视新闻直击各地汛情。"
+            android:visibility="visible"
+            android:textColor="#ffffff"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/living_tittle_top"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/white"
+            android:gravity="center"
+            android:visibility="invisible"
+            android:text="正直播，央视新闻直击各地汛情。"
+            android:textSize="15sp" />
+        <RelativeLayout
+            android:id="@+id/living_rl"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/living_tittle_tv">
+            <ImageView
+                android:id="@+id/living_up"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/arraw_grey_up" />
+            <RadioGroup
+                android:id="@+id/living_rg"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginTop="5dp"
+                android:layout_toLeftOf="@id/living_up"
+                android:background="#aaaaaa"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/living_living_rb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:button="@null"
+                    android:textColor="@drawable/slt_text_bottom1"
+                    android:gravity="center"
+                    android:text="直播" />
+
+                <RadioButton
+                    android:id="@+id/living_hudong_rb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="1dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:button="@null"
+                    android:textColor="@drawable/slt_text_bottom1"
+                    android:gravity="center"
+                    android:text="互动" />
+            </RadioGroup>
+            <android.support.v4.view.ViewPager
+                android:id="@+id/living_vp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/living_rg"
+                android:layout_marginTop="10dp" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/living_fl1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <TextView
+            android:id="@+id/living_tittle_fl"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffffff"
+            android:text="正直播，央视新闻直击各地汛情。"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/living_back_fl"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/base_header_back"/>
+        <ImageView
+            android:id="@+id/living_share_fl"
+            android:layout_width="35dp"
+            android:layout_height="50dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/icon_detail_share"
+            android:layout_gravity="right" />
+    </FrameLayout>
+    <FrameLayout
+        android:id="@+id/living_fl2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_below="@id/living_fl1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp">
+        </FrameLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.cctvnews.www.fragment.DiscoverFragment">
+
+    <TextView
+        android:id="@+id/discover_title_tv"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="发现"
+        android:textColor="@color/black"
+        android:textSize="25sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/discover_title_tv">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RelativeLayout
+                android:id="@+id/discover_rl"
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <com.bigkoo.convenientbanner.ConvenientBanner
+                    android:id="@+id/discover_banner"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:id="@+id/discover_content_tv"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="#4b080808"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="10dp"
+                    android:singleLine="true"
+                    android:text="正在加载..."
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/discover_server"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/discover_rl"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="生活服务"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <com.cctvnews.www.customview.TwoWayGridView
+                android:id="@+id/discover_twowaygridview"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_below="@+id/discover_server"
+                android:layout_margin="5dp"
+                android:background="@color/white"
+                app:horizontalSpacing="10dp"
+                app:numColumns="auto_fit"
+                app:numRows="1"
+                app:scrollDirectionLandscape="horizontal"
+                app:scrollDirectionPortrait="horizontal"
+                app:stretchMode="columnWidth"
+                app:verticalSpacing="3dp" />
+
+            <TextView
+                android:id="@+id/discover_find_more"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_below="@+id/discover_twowaygridview"
+                android:gravity="center_vertical"
+                android:paddingLeft="10dp"
+                android:text="发现更多"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/discover_find_more"
+                android:background="#32453f3f"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/discover_search_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/discover_find_iv"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/icon_search" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/discover_find_iv"
+                        android:text="搜索"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:src="@drawable/youjiantou" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/discover_swipe_rl"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@color/white">
+
+                    <ImageView
+                        android:id="@+id/discover_swipe_iv"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="30dp"
+                        android:src="@drawable/icon_swipe" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/discover_swipe_iv"
+                        android:text="扫一扫"
+                        android:textColor="@color/black"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:padding="5dp"
+                        android:src="@drawable/youjiantou" />
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

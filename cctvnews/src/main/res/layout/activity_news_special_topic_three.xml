@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ptr="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/topic_three_tv"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="专题"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+    <ImageView
+        android:id="@+id/topic_three_iv"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:paddingLeft="10dp"
+        android:src="@drawable/base_header_back" />
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/topic_three_pullToRefreshListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topic_three_tv"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@drawable/default_ptr_flip"
+        ptr:ptrHeaderBackground="@android:color/transparent"
+        ptr:ptrHeaderTextColor="#ff0000" />
+</RelativeLayout>

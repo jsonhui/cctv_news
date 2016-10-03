@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/news_item_video_iv"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:scaleType="fitXY"
+        />
+    <TextView
+        android:id="@+id/news_item_video_tittle_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="郑永年：“南海政权是政治操作。”"
+        android:layout_marginTop="10dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
