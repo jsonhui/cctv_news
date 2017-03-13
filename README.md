@@ -12,27 +12,27 @@
 </div>
 -->
 <div align=center>
-<image border=1 alt="图1" src="https://github.com/jsonhui/images/blob/master/n1.png"/>
+<image border=2 alt="图1" src="https://github.com/jsonhui/images/blob/master/n1.png"/>
 </div>
 ###<div class="text" align=center>-图片1-</div><br>
 
 <div align=center>
-<image border=1 alt="图2" src="https://github.com/jsonhui/images/blob/master/n2.png"/>
+<image border=2 alt="图2" src="https://github.com/jsonhui/images/blob/master/n2.png"/>
 </div>
 ###<div class="text" align=center>-图片2-</div><br>
 
 <div align=center>
-<image border=1 alt="图3" src="https://github.com/jsonhui/images/blob/master/n3.png"/>
+<image border=2 alt="图3" src="https://github.com/jsonhui/images/blob/master/n3.png"/>
 </div>
 ###<div class="text" align=center>-图片3-</div><br>
 
 <div align=center>
-<image border=1 alt="图4" src="https://github.com/jsonhui/images/blob/master/n4.png"/>
+<image border=2 alt="图4" src="https://github.com/jsonhui/images/blob/master/n4.png"/>
 </div>
 ###<div class="text" align=center>-图片4-</div><br>
 
 <div align=center>
-<image border=1 alt="图5" src="https://github.com/jsonhui/images/blob/master/n5.png"/>
+<image border=2 alt="图5" src="https://github.com/jsonhui/images/blob/master/n5.png"/>
 </div>
 ###<div class="text" align=center>-图片5-</div><br>
 <!--
