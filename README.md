@@ -1,6 +1,6 @@
 # <div class="text" align=center background=#005430>------新闻项目------</div><br>
 ```java
-                    这个项目来源于网络，现在分享出来，有些bug，不懂的可以联系320175912@qq.com
+                    这个项目来源于XXX，现在分享出来，有些bug，技术可以联系320175912@qq.com
 ```
 
 <!--<div align=center>
