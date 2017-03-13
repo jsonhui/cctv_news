@@ -27,7 +27,7 @@
 ###<div class="text" align=center>-图片3-</div><br>
 
 <div align=center>
-<image border-style:solid; border-width:1px; border-color:#000 alt="图4" src="https://github.com/jsonhui/images/blob/master/n4.png"/>
+<image  border:1 border-color:#000 alt="图4" src="https://github.com/jsonhui/images/blob/master/n4.png"/>
 </div>
 ###<div class="text" align=center>-图片4-</div><br>
 
