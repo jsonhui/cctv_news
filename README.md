@@ -12,7 +12,7 @@
 </div>
 -->
 <div align=center>
-<image border=2 alt="图1" src="https://github.com/jsonhui/images/blob/master/n1.png"/>
+<image border-style:solid; border-width:1px; border-color:#000 alt="图1" src="https://github.com/jsonhui/images/blob/master/n1.png"/>
 </div>
 ###<div class="text" align=center>-图片1-</div><br>
 
