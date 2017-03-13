@@ -16,8 +16,8 @@
 <image border-style:solid; border-width:1px; border-color:#000 alt="图1" src="https://github.com/jsonhui/images/blob/master/n1.png"/>
 </div>
 -->
-<image src="[![jason1]](http://my.csdn.net/jason_fish)  
-[jason1]:https://github.com/jsonhui/images/blob/master/n1.png '320175912@qq.com'" ></image>
+<image src=[![jason1]](http://my.csdn.net/jason_fish)  
+[jason1]:https://github.com/jsonhui/images/blob/master/n1.png ></image>
 
 ###<div class="text" align=center>图片1</div><br>
 <!--
