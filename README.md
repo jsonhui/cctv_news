@@ -1,4 +1,4 @@
-# <div class="text" align=center>------新闻项目------</div><br>
+# <div class="text" align=center background="#000">------新闻项目------</div><br>
 ```java
                     这个项目来源于网络，现在分享出来，有些bug，不懂的可以联系320175912@qq.com
 ```
