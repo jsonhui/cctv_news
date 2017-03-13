@@ -16,7 +16,10 @@
 <image border-style:solid; border-width:1px; border-color:#000 alt="图1" src="https://github.com/jsonhui/images/blob/master/n1.png"/>
 </div>
 -->
-<div align=center>[![jason1]](http://my.csdn.net/jason_fish)[jason1]:https://github.com/jsonhui/images/blob/master/n2.png "320175912@qq.com"</div> 
+<img align=center>
+[![jason1]](http://my.csdn.net/jason_fish)
+[jason1]:https://github.com/jsonhui/images/blob/master/n2.png "320175912@qq.com"
+</img> 
 ###<div class="text" align=center>图片1</div><br>
 <!--
 <div align=center>
