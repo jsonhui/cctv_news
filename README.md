@@ -16,12 +16,10 @@
 <image border-style:solid; border-width:1px; border-color:#000 alt="图1" src="https://github.com/jsonhui/images/blob/master/n1.png"/>
 </div>
 -->
-
-<img margin-left=10>
+<img alignleft=10>
 [![jason1]](http://my.csdn.net/jason_fish)
 [jason1]:https://github.com/jsonhui/images/blob/master/n1.png "320175912@qq.com"
 </img> 
-
 ###<div class="text" align=center>图片1</div><br>
 <!--
 <div align=center>
