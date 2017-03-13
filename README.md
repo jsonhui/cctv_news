@@ -17,7 +17,7 @@
 </div>
 -->
 
-<img align=middle>
+<img style="float:middle">
 [![jason1]](http://my.csdn.net/jason_fish)
 [jason1]:https://github.com/jsonhui/images/blob/master/n1.png "320175912@qq.com"
 </img> 
