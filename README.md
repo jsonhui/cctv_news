@@ -1,5 +1,7 @@
 # 新闻项目
-##这个项目来源于我的一个表哥，现在分享出来，有些bug，不懂的可以联系320175912@qq.com
+```java
+这个项目来源于网络，现在分享出来，有些bug，不懂的可以联系320175912@qq.com
+```
 ###图片1<br>
 ![image](https://github.com/jsonhui/images/blob/master/n1.png)<br>
 ###图片2<br>
